@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav>
-     <a href="index.php"> <h1> Win a knowledge about the disney pigs movies !</h1></a>
+     <a href="index.php"> <h1 class="vamp"> Win a knowledge about the disney pigs movies !</h1></a>
         <div></div>
         <div></div>
         <div></div>
@@ -20,7 +20,7 @@
     </nav>
     <main id="main" >
         <form>
-                <input  type="search" placeholder="Win and search your pig !"  name="search" id="search" >
+                <input  type="search" placeholder="Search your pig !"  name="search" id="search" >
                 <div id="data">
                     <?php include('element.php'); ?>
                 </div>

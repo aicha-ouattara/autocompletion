@@ -13,6 +13,7 @@ table {
 
 .list:hover {
     background-color: palevioletred;
+    color: white;
 }
 
 #closeSearch {
@@ -35,7 +36,30 @@ a {
 h2
 {
     font-size: 30px;
+    color: palevioletred;
 }
+
+.vamp {
+
+    color: palevioletred;
+    text-shadow:
+            0 1px 0px #378ab4,
+            1px 0 0px #5dabcd,
+            1px 2px 1px #378ab4,
+            2px 1px 1px #5dabcd,
+            2px 3px 2px #378ab4,
+            3px 2px 2px #5dabcd,
+            3px 4px 2px #378ab4,
+            4px 3px 3px #5dabcd,
+            4px 5px 3px #378ab4,
+            5px 4px 2px #5dabcd,
+            5px 6px 2px #378ab4,
+            6px 5px 2px #5dabcd,
+            6px 7px 1px #378ab4,
+            7px 6px 1px #5dabcd,
+            7px 8px 0px #378ab4,
+            8px 7px 0px #5dabcd;}
+
 body
 {
     margin: auto;
@@ -66,11 +90,14 @@ input
     width: 1000px;
     border: none;
     background: none;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
     height: 200px;
     background-image: url("https://media.giphy.com/media/JZaulwi8C2Sys/giphy.gif");
     background-repeat: no-repeat;
     text-align: right;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+
 }
 ::placeholder
 {
