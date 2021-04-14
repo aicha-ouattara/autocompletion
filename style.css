@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    border-top: none;
+    border: 1px solid rgb(212, 212, 212);
+    width: 100% !important;
+    text-align: center;
+}
+
+.list:hover {
+    background-color: #e2e3e5;
+}
+
+#closeSearch {
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main {
+    min-height: 70vh;
+}
+h2
+{
+    font-size: 30px;
+}
+body
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lavender;
+    font-family: 'Lobster', cursive;
+
+}
+th
+{
+   font-size: 20px;
+}
+h1
+{
+    font-size: 45px;
+
+}
+main img
+{
+    width:40%;
+}
+input
+{
+    width: 1000px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    height: 200px;
+    background-image: url("https://media.giphy.com/media/JZaulwi8C2Sys/giphy.gif");
+    background-repeat: no-repeat;
+    text-align: right;
+}
+::placeholder
+{
+    color: black;
+    font-family: 'Lobster', cursive;
+
+}
