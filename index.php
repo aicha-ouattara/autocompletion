@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav>
-     <a href="index.php"> <h1 class="vamp"> Decouvre tous les cohons qui ont joué dans les disneys !</h1></a>
+     <a href="index.php"> <h1 class="vamp"> Decouvre tous les cochons qui ont joué dans les disneys !</h1></a>
         <div></div>
         <div></div>
         <div></div>
@@ -28,7 +28,8 @@
         </form>
     </main>
     <footer>
-        <p>Cochon sources</p>
+ 
+        <a href="https://www.chroniquedisney.fr/perso/perso-cochons-disney.htm"><p>Cochon sources</p></a>
     </footer>
 
     <script type="text/javascript" src="script.js"></script>
