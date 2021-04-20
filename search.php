@@ -3,7 +3,7 @@ if (isset($_GET['search'])) {
     $search = $_GET['search'];
 } 
 $conn = new PDO("mysql:host=localhost;dbname=autocompletion;charset=UTF8", "root", "");
-$sql = "SELECT id, name FROM wine WHERE name LIKE '%$search%'";
+$sql = "SELECT id, name FROM pig WHERE name LIKE '%$search%'";
 $result = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <table>

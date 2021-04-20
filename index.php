@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav>
-     <a href="index.php"> <h1 class="vamp"> Win a knowledge about the disney pigs movies !</h1></a>
+     <a href="index.php"> <h1 class="vamp"> Decouvre tous les cohons qui ont joué dans les disneys !</h1></a>
         <div></div>
         <div></div>
         <div></div>
@@ -20,7 +20,7 @@
     </nav>
     <main id="main" >
         <form>
-                <input  type="search" placeholder="Search your pig !"  name="search" id="search" >
+                <input  type="search" placeholder="Trouve ton cochon !"  name="search" id="search" >
                 <div id="data">
                     <?php include('element.php'); ?>
                 </div>
@@ -28,7 +28,7 @@
         </form>
     </main>
     <footer>
-        <p>Pig sources</p>
+        <p>Cochon sources</p>
     </footer>
 
     <script type="text/javascript" src="script.js"></script>
